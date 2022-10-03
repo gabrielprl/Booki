@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../assets/fonts/Raleway-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+*::selection{
+    color: white;
+    background-color: black;
+}
+
+svg.logo{
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 55px;
+    top: 44px;
+}
+
+svg.logo1{
+    position: absolute;
+    width: 2.9px;
+    height: 5.15px;
+    left: 90.54px;
+    top: 53.53px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: none;
+}
+
+ul li.menu1 a{
+    position: absolute;
+    left: 1120px;
+    right: 207px;
+    top: 48px;
+    bottom: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+ul li.menu2 a{
+    position: absolute;
+    left: 1300px;
+    right: 77px;
+    top: 48px;
+    bottom: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+ul li a:hover{
+    color: #0065FC;
+}
+
+.title{
+    position: absolute;
+    width: 575px;
+    height: 26px;
+    left: 55px;
+    top: 126px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.sous-title{
+    position: absolute;
+    width: 296px;
+    height: 19px;
+    left: 55px;
+    top: 160px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.vector{
+    position: absolute;
+    left: 73px;
+    right: 1353px;
+    top: 215px;
+    bottom: 0;
+
+    width: 40px;
+    height: 40px;
+}
+
+img#backcolor{
+    background: none;
+}
+
+.locationtxt{
+    position: absolute;
+    left: 55px;
+    right: 1053px;
+    top: 199px;
+    bottom: 0;
+}
+
+.locationtxt input{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+
+    width: 332px;
+    height: 49px;
+    background: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+
+}
+
+.buttonlocation input[type="button"]{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    gap: 10px;
+
+    position: absolute;
+    width: 132px;
+    height: 49px;
+    left: 341px;
+    top: 200px;
+
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.buttonlocation input[value="Rechercher"]{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
