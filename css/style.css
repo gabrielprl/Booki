@@ -250,3 +250,175 @@ img.placements-icons{
     font-size: 16px;
     line-height: 19px;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 50px;
+}
+
+.box{
+    width: 1280px;
+    height: 780px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+.boxZ{
+    width: 475px;
+    height: 780px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+p.title-box{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    margin-top: 42px;
+    margin-left: 40px;
+
+    color: #000000;
+}
+
+p.title-boxZ{
+    display: flex;
+    justify-content: space-between;
+    margin: 41px 37px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+p.title-boxZ img{
+    width: 18px;
+    height: 15.75px;
+
+    margin-top: 8px;
+}
+
+.cards {
+    width: 365px;
+    height: 270px;
+    border-radius: 20px;
+
+    display: inline-block;
+
+    margin-top: 23px;
+    margin-left: 40px;
+
+    background: white;
+}
+
+img.auberge{
+    width: 365px;
+}
+
+p.title-cards{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+
+    margin-left: 16px;
+}
+
+p.desc{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    margin-top: 9px;
+    margin-left: 16px;
+}
+
+.star{
+    margin-left: 16px;
+    margin-top: 9px;
+}
+
+.fa-solid, fas{
+    color: #0065FC;
+
+    width: 12px;
+    height: 12px;
+    margin-left: 2px;
+}
+
+#white{
+    color: #F2F2F2;
+}
+
+p.more{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 21px;
+
+    margin-top: 50px;
+    margin-left: 44px;
+}
+
+p.more a{
+    text-decoration: none;
+    text-transform: none;
+    color: #000000;
+}
+
+.cardsZ{
+    width: 400px;
+    height: 189px;
+    border-radius: 20px;
+
+    margin-left: 37px;
+    margin: 33px;
+
+    background: white;
+}
+
+img.soleil{
+    width: 180px;
+}
+
+.display{
+    float: right;
+    margin-top: 17px;
+    margin-right: 27px;
+}
+
+p.title-cardsZ{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: 19px;
+
+    width: 175px;
+    height: 38px;
+}
+
+p.descZ{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 16px;
+
+    margin-top: 20px;
+}
+
+.starZ{
+    margin-top: 64px;
+}
