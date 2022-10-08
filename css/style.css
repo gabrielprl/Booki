@@ -422,3 +422,98 @@ p.descZ{
 .starZ{
     margin-top: 64px;
 }
+
+p.titleX{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    margin-left: 50px;
+    margin-top: 65px;
+}
+
+.containerX{
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardsX{
+    width: 405px;
+    height: 600px;
+    box-shadow: 2px 3px 10px 0px rgb(69 63 70);
+
+    margin-right: 10px;
+
+    border-radius: 20px;
+}
+
+img.vieuxport{
+    width: 405px;
+}
+
+div.emplacement{
+    width: 405px;
+    height: 55px;
+    border-radius: 0px 0px 20px 20px;
+
+    position: relative;
+    bottom: 52px;
+
+    background: white;
+}
+
+#descX{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 19px;
+
+    padding: 20px 19px;
+}
+
+.ft {
+    width: 1800px;
+    height: 250px;
+    background: #F2F2F2;
+
+    margin-top: 75px;
+    margin-left: 53px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.same{
+    padding-top: 50px;
+    padding-right: 290px;
+}
+
+.all{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 21px;
+}
+
+.link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    display: flex;
+
+    margin-top: 21px;
+}
+
+.same a{
+    text-decoration: none;
+    text-decoration: none;
+    color: #000000;
+}
