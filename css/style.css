@@ -14,32 +14,16 @@
     background-color: black;
 }
 
-svg.logo{
+html{
+    scroll-behavior: smooth;
+}
+
+img.logo{
     margin-top: 44px;
     margin-left: 55px;
 
     width: 61.09px;
     height: 19px;
-}
-
-svg.virgule{
-    position: absolute;
-    top: 53.53px;
-    left: 90px;
-    right: 1346.57px;
-    bottom: 0;
-
-    width: 2.9px;
-    height: 5.15px;
-}
-
-svg.circle{
-    position: absolute;
-    left: 90px;
-    top: 52.56px;
-
-    width: 2.9px;
-    height: 2.9px;
 }
 
 nav ul li{
@@ -258,15 +242,15 @@ img.placements-icons{
 }
 
 .box{
-    width: 1280px;
-    height: 780px;
+    width: ;
+    height: ;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
 
 .boxZ{
-    width: 475px;
-    height: 780px;
+    width: ;
+    height: ;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -306,8 +290,8 @@ p.title-boxZ img{
 }
 
 .cards {
-    width: 365px;
-    height: 270px;
+    width: ;
+    height: ;
     border-radius: 20px;
 
     display: inline-block;
@@ -319,7 +303,7 @@ p.title-boxZ img{
 }
 
 img.auberge{
-    width: 365px;
+    width: ;
 }
 
 p.title-cards{
@@ -378,8 +362,8 @@ p.more a{
 }
 
 .cardsZ{
-    width: 400px;
-    height: 189px;
+    width: ;
+    height: ;
     border-radius: 20px;
 
     margin-left: 37px;
@@ -389,7 +373,7 @@ p.more a{
 }
 
 img.soleil{
-    width: 180px;
+    width: ;
 }
 
 .display{
@@ -405,8 +389,8 @@ p.title-cardsZ{
     font-size: 20px;
     font-weight: 19px;
 
-    width: 175px;
-    height: 38px;
+    width: ;
+    height: ;
 }
 
 p.descZ{
@@ -430,8 +414,8 @@ p.titleX{
     font-size: 22px;
     line-height: 26px;
 
-    margin-left: 50px;
-    margin-top: 65px;
+    margin-left: ;
+    margin-top: ;
 }
 
 .containerX{
@@ -442,8 +426,8 @@ p.titleX{
 }
 
 .cardsX{
-    width: 405px;
-    height: 600px;
+    width: ;
+    height: ;
     box-shadow: 2px 3px 10px 0px rgb(69 63 70);
 
     margin-right: 10px;
@@ -452,12 +436,12 @@ p.titleX{
 }
 
 img.vieuxport{
-    width: 405px;
+    width: 100%;
 }
 
 div.emplacement{
-    width: 405px;
-    height: 55px;
+    width: ;
+    height: ;
     border-radius: 0px 0px 20px 20px;
 
     position: relative;
@@ -477,8 +461,8 @@ div.emplacement{
 }
 
 .ft {
-    width: 1800px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     background: #F2F2F2;
 
     margin-top: 75px;
