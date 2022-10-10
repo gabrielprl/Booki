@@ -517,3 +517,20 @@ div.emplacement{
     text-decoration: none;
     color: #000000;
 }
+
+
+
+
+/** Tablette */
+
+
+
+
+
+/** Mobile */
+@media screen and (max-width: 1024px){
+
+    svg.logo{
+        
+    }
+}
