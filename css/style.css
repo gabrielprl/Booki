@@ -18,12 +18,14 @@ html{
     scroll-behavior: smooth;
 }
 
-img.logo{
+.logo{
     margin-top: 44px;
     margin-left: 55px;
 
     width: 61.09px;
     height: 19px;
+
+    cursor: pointer;
 }
 
 nav ul li{
@@ -54,7 +56,8 @@ nav ul li a:hover{
 nav{
     position: relative;
     bottom: 22.5px;
-    margin-left: 80vw;
+    display: flex;
+    justify-content: right;
 }
 
 nav ul{
@@ -68,7 +71,7 @@ nav ul{
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 26px;
     color: #000000;
 }
@@ -118,7 +121,6 @@ input::placeholder{
 }
 
 input[type="text"]{
-    width: 240px;
     height: 49px;
 
     background: white;
@@ -131,11 +133,11 @@ input[placeholder="Marseille, France"]{
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
+    padding-left: 15px;
     color: #000000;
 }
 
-input[type="submit"]{
+.btn{
     position: relative;
     right: 5px;
     padding: 12px 16px;
@@ -149,7 +151,11 @@ input[type="submit"]{
     border-radius: 0px 15px 15px 0px;
 }
 
-input[value="Rechercher"]{
+.btn:hover{
+    background: #307ef1;
+}
+
+.btn[value="Rechercher"]{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -164,22 +170,24 @@ input[value="Rechercher"]{
 
 .filters{
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 
     position: relative;
     top: 30px;
 }
 
 .contain{
-    margin: 0px 20px;
-    padding: 12px 30px;
+    margin: 0px 8px;
+    padding: 10px 25px;
     border: 1px solid gray;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 span.title-filters{
     margin-right: 10px;
     margin-left: 55px;
-    margin-top: 16px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -224,7 +232,7 @@ img.placements-icons{
     height: 10px;
 }
 
-.infos p {
+.infos p{
     margin-top: 3px;
     margin-left: 5px;
 
@@ -236,7 +244,7 @@ img.placements-icons{
 }
 
 .container{
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin: 35px 50px;
 }
@@ -264,6 +272,7 @@ p.title-box{
 
     margin-top: 42px;
     margin-left: 40px;
+    padding-top: 40px;
 
     color: #000000;
 }
@@ -289,15 +298,18 @@ p.title-boxZ img{
     margin-top: 8px;
 }
 
-.cards {
-    width: ;
-    height: ;
+article a{
+    text-decoration: none;
+    text-transform: none;
+}
+
+.cards{
     border-radius: 20px;
 
     display: inline-block;
 
     margin-top: 23px;
-    margin-left: 40px;
+    margin-left: 32px;
 
     background: white;
 }
@@ -314,6 +326,14 @@ p.title-cards{
     line-height: 19px;
 
     margin-left: 16px;
+}
+
+a p.title-cards{
+    color: #000000;
+}
+
+a p.desc{
+    color: #000000;
 }
 
 p.desc{
@@ -340,7 +360,7 @@ p.desc{
     margin-left: 2px;
 }
 
-#white{
+.fa-white{
     color: #F2F2F2;
 }
 
@@ -348,11 +368,12 @@ p.more{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 21px;
 
     margin-top: 50px;
     margin-left: 44px;
+    padding-bottom: 45px;
 }
 
 p.more a{
@@ -362,12 +383,14 @@ p.more a{
 }
 
 .cardsZ{
-    width: ;
-    height: ;
+    width: 35%;
+    height: 150px;
+
     border-radius: 20px;
 
     margin-left: 37px;
     margin: 33px;
+    display: flex;
 
     background: white;
 }
@@ -377,8 +400,6 @@ img.soleil{
 }
 
 .display{
-    float: right;
-    margin-top: 17px;
     margin-right: 27px;
 }
 
@@ -400,11 +421,11 @@ p.descZ{
     font-size: 18px;
     font-weight: 16px;
 
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 .starZ{
-    margin-top: 64px;
+    margin-top: 24px;
 }
 
 p.titleX{
@@ -465,16 +486,12 @@ div.emplacement{
     height: 100%;
     background: #F2F2F2;
 
-    margin-top: 75px;
-    margin-left: 53px;
-
     display: flex;
     justify-content: space-evenly;
 }
 
 .same{
-    padding-top: 50px;
-    padding-right: 290px;
+    
 }
 
 .all{
