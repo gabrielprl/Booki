@@ -254,11 +254,13 @@ img.placements-icons{
     height: ;
     background-color: #F2F2F2;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 .boxZ{
-    width: ;
-    height: ;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -400,14 +402,14 @@ img.soleil{
 }
 
 .display{
-    margin-right: 27px;
+    width: 120px;
 }
 
 p.title-cardsZ{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 19px;
 
     width: ;
@@ -418,14 +420,14 @@ p.descZ{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 16px;
 
     margin-top: 8px;
 }
 
 .starZ{
-    margin-top: 24px;
+    margin-top: 42px;
 }
 
 p.titleX{
@@ -444,14 +446,12 @@ p.titleX{
 
     display: flex;
     justify-content: space-evenly;
+    gap: 5%;
 }
 
 .cardsX{
-    width: ;
-    height: ;
+    width: 21%;
     box-shadow: 2px 3px 10px 0px rgb(69 63 70);
-
-    margin-right: 10px;
 
     border-radius: 20px;
 }
@@ -482,8 +482,11 @@ div.emplacement{
 }
 
 .ft {
-    width: 100%;
-    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 90%;
+    height: 200px;
     background: #F2F2F2;
 
     display: flex;
@@ -491,7 +494,7 @@ div.emplacement{
 }
 
 .same{
-    
+    padding-top: 35px;
 }
 
 .all{
