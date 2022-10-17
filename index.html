@@ -19,8 +19,8 @@
 
         <nav>                
             <ul>
-                <li class="menuX"><a href="#">Hébergements</a></li>
-                <li class="menuY"><a href="#">Activités</a></li>
+                <li class="menuX"><a href="#hebergements">Hébergements</a></li>
+                <li class="menuY"><a href="#activites">Activités</a></li>
             </ul>
         </nav>
     </header>
@@ -59,7 +59,7 @@
             </div>
         </div>
         
-        <div class="infos">
+        <div class="infos" id="hebergements">
             <img class="ellipse" src="./assets/icons/Ellipse.png" alt="ellipse">
             <img class="i" src="./assets/icons/i.png" alt="i">
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -163,6 +163,7 @@
         <div class="boxZ">
             <p class="title-boxZ">Les plus populaires <img src="./assets/icons/stats.png" alt="stats"></p>
             <article class="cardsZ">
+                <a href="#">
                 <img class="soleil" src="./assets/images/soleil.png" alt="Hôtel Le soleil du matin">
                 <div class="display">
                 <p class="title-cardsZ">Hôtel Le soleil du matin</p>
@@ -175,13 +176,15 @@
                     <i class="fa-solid fa-star fa-white"></i>
                 </div>
                 </div>
+                </a>
             </article>
 
             <article class="cardsZ">
-                <img class="soleil" src="./assets/images/soleil.png" alt="Hôtel Le soleil du matin">
+                <a href="#">
+                <img class="soleil" src="./assets/images/l'eau.png" alt="Chambres d'hôtes Au coeur de l'eau">
                 <div class="display">
-                <p class="title-cardsZ">Hôtel Le soleil du matin</p>
-                <p class="descZ">Nuit à partir de 128€</p>
+                <p class="title-cardsZ">Chambres d'hôtes Au coeur de l'eau</p>
+                <p class="descZ">Nuit à partir de 71€</p>
                 <div class="starZ">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -190,13 +193,15 @@
                     <i class="fa-solid fa-star fa-white"></i>
                 </div>
                 </div>
+                </a>
             </article>
 
             <article class="cardsZ">
-                <img class="soleil" src="./assets/images/soleil.png" alt="Hôtel Le soleil du matin">
+                <a href="#">
+                <img class="soleil" src="./assets/images/blanc.png" alt="Hôtel Bleu et Blanc">
                 <div class="display">
-                <p class="title-cardsZ">Hôtel Le soleil du matin</p>
-                <p class="descZ">Nuit à partir de 128€</p>
+                <p class="title-cardsZ">Hôtel Bleu et Blanc</p>
+                <p class="descZ">Nuit à partir de 68€</p>
                 <div class="starZ">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -205,39 +210,48 @@
                     <i class="fa-solid fa-star fa-white"></i>
                 </div>
                 </div>
+                </a>
             </article>
         </div>
+    </div>
 
-        <p class="titleX">Activités à Marseille</p>
+        <p class="titleX" id="activites">Activités à Marseille</p>
         <div class="containerX">
+            <a href="#">
             <div class="cardsX">
                 <img class="vieuxport" src="./assets/images/vieuxport.png" alt="Vieux-Port">
                     <div class="emplacement">
                     <p id="descX">Vieux-Port</p>
                 </div>
+            </a>
             </div>
 
+            <a href="#">
             <div class="cardsX">
                 <img class="vieuxport" src="./assets/images/pomegues.png" alt="Fort de Pomègues">
                     <div class="emplacement">
                     <p id="descX">Fort de Pomègues</p>
                 </div>
             </div>
+            </a>
 
+            <a href="#">
             <div class="cardsX">
                 <img class="vieuxport" src="./assets/images/calanques.png" alt="Parc national des Calanques">
                     <div class="emplacement">
                     <p id="descX">Parc national des Calanques</p>
                 </div>
             </div>
+            </a>
 
+            <a href="#">
             <div class="cardsX">
                 <img class="vieuxport" src="./assets/images/damedegarde.png" alt="Notre-Dame-de-la-Garde">
                     <div class="emplacement">
                     <p id="descX">Notre-Dame-de-la-Garde</p>
                 </div>
             </div>
-        </div>
+            </a>
     </main>
 
     <footer>
