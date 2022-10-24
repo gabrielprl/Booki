@@ -8,21 +8,18 @@
     padding: 0;
 }
 
-
 *::selection{
     color: white;
     background-color: black;
 }
 
 .logo{
-    margin-top: 44px;
-    margin-left: 55px;
-
     width: 61.09px;
     height: 19px;
 
     cursor: pointer;
 }
+
 
 nav ul li{
     width: 50%;
@@ -41,7 +38,7 @@ nav ul li a{
 }
 
 nav > ul > li > a{
-    padding: 43px 15px;
+    padding: 44px 15px;
 }
 
 nav ul li a:hover{
@@ -50,13 +47,19 @@ nav ul li a:hover{
 }
 
 nav{
-    position: relative;
-    bottom: 22.5px;
-    margin-left: 80vw;
+    margin-right: 25px;
 }
 
-nav ul{
+.nav-emplacement {
     display: flex;
+    margin: 44px 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25%;
 }
 
 .title{
@@ -178,6 +181,10 @@ span.title-filters{
     text-align: center;
 }
 
+.contain{
+    display: flex;
+}
+
 .contain button{
     font-family: 'Raleway';
     font-style: normal;
@@ -191,7 +198,7 @@ span.title-filters{
 .contain button{
     margin: 0px 15px;
     padding: 12px 30px;
-    border: 1px solid gray;
+    border: 1px solid #b7acac;
     background-color: white;
     border-radius: 40px;
     cursor: pointer;
@@ -260,11 +267,6 @@ img.placements-icons{
 }
 
 article a{
-    text-decoration: none;
-    text-transform: none;
-}
-
-aside a{
     text-decoration: none;
     text-transform: none;
 }
@@ -410,44 +412,53 @@ p.more a{
 .direction-composant{
     display: flex;
     flex-direction: column;
-    margin: 18px 15px;
-    gap: 6px;
+    height: 110px;
+    width: 150px;
+    margin: 12px 15px;
 }
 
 img.img-hebergementsZ{
-    width: 41%;
+    width: auto;
+    height: 150px;
 }
 
 .display{
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 13px;
+}
+
+.image-w-h{
+    width: 100%;
+    height: 100%;
+    padding: 20px 15px;
 }
 
 .title-cardsZ{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 17.5px;
     font-weight: 19px;
-
-    width: 175px;
+    width: 100%;
 }
 
 .descZ{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 16px;
+    margin-top: 8px;
 }
 
 .starZ{
     width: 100%;
-    margin-top: 19%;
+    padding-top: 45px;
 }
 
-p.titleX{
+.titleX{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -460,7 +471,7 @@ p.titleX{
 
 .containerX{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -472,40 +483,35 @@ p.titleX{
 }
 
 .cardsX{
-    height: 600px;
+    width: 22%;
+    height: 500px; 
     box-shadow: 2px 3px 10px 0px rgb(69 63 70);
-
-    margin-right: 32px;
-
+    overflow: hidden;
     border-radius: 25px;
 }
 
-img.vieuxport{
+.containerX figure {
+    height: 100%;
+}
+
+
+.vieuxport{
+    height: 87%;
     width: 100%;
+    object-fit: cover;
 }
 
-div.emplacement{
-    width: 405px;
-    height: 55px;
-    border-radius: 0px 0px 20px 20px;
-
-    position: relative;
-    bottom: 52px;
-
-    background: white;
-}
-
-#descX{
+.descX{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
     line-height: 19px;
-
     padding: 20px 19px;
 }
 
 footer{
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -523,7 +529,6 @@ footer{
 
 .same{
     padding-top: 50px;
-    padding-right: 290px;
 }
 
 .all{
@@ -555,6 +560,261 @@ footer{
     color: #524f4f;
 }
 
+/* Responsive Tablette */
 @media screen and (max-width: 992px){
+    .title{
+        font-size: 21px;
+    }
+
+    .contain button{
+        margin: 0px 6px;
+        padding: 12px 14px;
+    }
+
+    .container{
+        display: block;
+        justify-content: space-between;
+        margin: 35px 50px;
+    }
+
+    .containerX{
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box{
+        margin-bottom: 40px;
+        width: 100%;
+        height: auto;
+    }
     
+    .boxZ{
+        display: inline;
+        flex-direction: row;
+        margin-bottom: 60px;
+        width: 27%;
+    }
+
+    .display{
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        background-color: #F2F2F2;
+    }
+
+    .title-box {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 42px;
+        margin-left: 50px;
+        padding-top: 40px
+    }
+    
+    .cards{
+        display: inline-block;
+        margin-top: 23px;
+    }
+
+    .cardsZ {
+        width: 31%;
+        display: flex;
+    }
+    
+    p.more {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding-bottom: 45px;
+    }
+    
+    .title-boxZ {
+        display: flex;
+        justify-content: space-between;
+        margin: -5px 36px;
+        position: relative;
+        top: 12px;
+        font-size: 22px;
+    }
+
+    .titleX{
+        margin-left: 55px;
+    }
+
+    .direction-cardsZ {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .direction-composant {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .title-cardsZ{
+        font-size: 18px;
+    }
+
+    .descZ{
+        font-size: 14.5px;
+    }
+
+    .cardsX {
+        width: 22%;
+        height: 365px;
+    }
+
+    .descX {
+        font-size: 18px;
+        line-height: 19px;
+        padding: 0px 19px;
+    }
+
+    .vieuxport{
+        height: 84%;
+    }
+
+    .ft{
+        width: 90%;
+        height: 200px;
+    }
+
+    .all{
+        font-size: 19px;
+    }
+
+    .link{
+        font-size: 16px;
+    }
+
+    .same{
+        padding-top: 30px;
+    }
+}
+
+
+
+/* Responsive Mobile */
+@media screen and (max-width: 768px) {
+    .nav-emplacement{
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 65px;
+        height: 20px;
+    }
+
+    nav{
+        margin: 0;
+    }
+
+    nav ul{
+        gap: 0;
+    }
+    
+    nav ul li a{
+        padding: 0 150px;
+        margin-top: 50px;
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        position: relative;
+    }
+
+    nav ul li a::after{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        bottom: -25px;
+        background-color: #F2F2F2;
+    }
+    nav ul li a:hover{
+        border-top: none;
+    }
+
+    nav ul li a:hover::after{
+        background: #0065FC;
+    }
+
+    .contain{
+        display: block;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .display{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .infos{
+        margin-bottom: 25px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+    }
+
+    .boxZ{
+        width: 100%;
+        height: 670px;
+        border-radius: 0;
+    }
+
+    .title-boxZ {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+        margin-top: 15px;
+    }
+
+    h2.title-box {
+        padding-top: 0px;
+        margin-top: 0px;
+
+    }
+
+    .cardsZ {
+        width: 91%;
+        display: flex;
+    }
+
+    .cards{
+        width: 100%;
+        height: 225px;
+        box-shadow: 0 0px 2px 2px #F2F2F2;
+    }
+
+    img.img-hebergements{
+        width: 100%;
+        height: 150px;
+    }
+
+    img.img-hebergementsZ{
+        width: auto;
+        height: auto;
+    }
+
+    .box{
+        background-color: white;
+    }
+    
+    .location{
+        display: grid;
+        margin-left: 2%;
+        gap: 0;
+    }
 }
