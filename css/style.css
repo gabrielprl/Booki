@@ -6,11 +6,7 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-*::selection{
-    color: white;
-    background-color: black;
+    font-family: 'Raleway';
 }
 
 .logo{
@@ -28,7 +24,6 @@ nav ul li{
 }
 
 nav ul li a{
-    font-family: 'Raleway';
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -50,7 +45,7 @@ nav{
     margin-right: 25px;
 }
 
-.nav-emplacement {
+.header {
     display: flex;
     margin: 44px 55px;
     justify-content: space-between;
@@ -66,7 +61,6 @@ nav ul {
     margin-left: 55px;
     margin-top: 40px;
 
-    font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -78,7 +72,6 @@ nav ul {
     margin-left: 55px;
     margin-top: 8px;
 
-    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -125,7 +118,6 @@ input[type="text"] {
 }
 
 input[placeholder="Marseille, France"] {
-    font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -144,6 +136,11 @@ input[placeholder="Marseille, France"] {
     background-color: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+}
+
+.btn .fa-magnifying-glass{
+    display: none;
 }
 
 .btn:hover{
@@ -151,7 +148,6 @@ input[placeholder="Marseille, France"] {
 }
 
 .btn[value="Rechercher"] {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -173,7 +169,6 @@ input[placeholder="Marseille, France"] {
 span.title-filters{
     margin-right: 10px;
     margin-left: 55px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -186,22 +181,17 @@ span.title-filters{
 }
 
 .contain button{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 20px;
-
-    color: black;
-}
-
-.contain button{
     margin: 0px 15px;
     padding: 12px 30px;
     border: 1px solid #b7acac;
     background-color: white;
     border-radius: 40px;
     cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: black;
 }
 
 .contain button:hover{
@@ -222,16 +212,18 @@ img.placements-icons{
 
 .infos i{
     position: relative;
-    right: 16.5px;
-    top: 4px;
+    right: 5px;
+    top: 1px;
     font-size: 14px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    padding: 4px 1px 5px 9px;
 }
 
 .infos p {
     margin-top: 3px;
     margin-left: 5px;
 
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -289,7 +281,6 @@ a .descZ{
 
 
 .title-box{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -307,7 +298,6 @@ a .descZ{
     align-items: center;
     margin: 6.5% 8%;
 
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -338,7 +328,6 @@ img.img-hebergements{
 }
 
 .title-cards{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -348,7 +337,6 @@ img.img-hebergements{
 }
 
 .desc{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -359,8 +347,9 @@ img.img-hebergements{
 }
 
 .star{
-    margin-left: 16px;
+    margin-left: 15px;
     margin-top: 9px;
+    margin-bottom: 5px;
 }
 
 .fa-solid, fas{
@@ -376,7 +365,6 @@ img.img-hebergements{
 }
 
 p.more{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -412,14 +400,14 @@ p.more a{
 .direction-composant{
     display: flex;
     flex-direction: column;
-    height: 110px;
+    height: auto;
     width: 150px;
     margin: 12px 15px;
 }
 
 img.img-hebergementsZ{
-    width: auto;
-    height: 150px;
+    width: 32%;
+    height: auto;
 }
 
 .display{
@@ -436,7 +424,6 @@ img.img-hebergementsZ{
 }
 
 .title-cardsZ{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 17.5px;
@@ -445,21 +432,17 @@ img.img-hebergementsZ{
 }
 
 .descZ{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     font-weight: 16px;
-    margin-top: 8px;
 }
 
 .starZ{
     width: 100%;
-    padding-top: 45px;
 }
 
 .titleX{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -502,7 +485,6 @@ img.img-hebergementsZ{
 }
 
 .descX{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
@@ -532,7 +514,6 @@ footer{
 }
 
 .all{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -540,7 +521,6 @@ footer{
 }
 
 .link{
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -590,17 +570,18 @@ footer{
     }
     
     .boxZ{
-        display: inline;
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
         margin-bottom: 60px;
-        width: 27%;
+        width: 100%;
     }
 
     .display{
         display: flex;
         flex-direction: row;
-        border-radius: 20px;
         background-color: #F2F2F2;
+        display: 100%;
+        border-radius: 20px;
     }
 
     .title-box {
@@ -617,8 +598,12 @@ footer{
     }
 
     .cardsZ {
-        width: 31%;
         display: flex;
+        width: 28%;
+        height: auto;
+        margin: 12px 10px;
+        margin-left: 23.5px;
+        margin-bottom: 40px;
     }
     
     p.more {
@@ -631,10 +616,11 @@ footer{
     .title-boxZ {
         display: flex;
         justify-content: space-between;
-        margin: -5px 36px;
         position: relative;
         top: 12px;
         font-size: 22px;
+        margin: 35px 30px;
+        width: 93%;
     }
 
     .titleX{
@@ -644,7 +630,13 @@ footer{
     .direction-cardsZ {
         display: flex;
         flex-direction: row;
+        width: 100%;
         height: 100%;
+    }
+
+    img.img-hebergementsZ{
+        width: 35%;
+        height: auto;
     }
 
     .direction-composant {
@@ -664,11 +656,11 @@ footer{
 
     .cardsX {
         width: 22%;
-        height: 365px;
+        height: 275px;
     }
 
     .descX {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 19px;
         padding: 0px 19px;
     }
@@ -699,25 +691,33 @@ footer{
 
 /* Responsive Mobile */
 @media screen and (max-width: 768px) {
-    .nav-emplacement{
+    .header{
         flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-top: 45px;
     }
 
     .logo{
-        width: 65px;
+        width: 100%;
         height: 20px;
     }
 
     nav{
         margin: 0;
+        width: 100%;
     }
 
     nav ul{
         gap: 0;
+        width: 100%;
+    }
+
+    nav ul li{
+        width: 100%;
     }
     
     nav ul li a{
-        padding: 0 150px;
         margin-top: 50px;
         margin-bottom: 35px;
         display: flex;
@@ -732,7 +732,7 @@ footer{
         display: block;
         width: 100%;
         height: 2px;
-        bottom: -25px;
+        bottom: 10px;
         background-color: #F2F2F2;
     }
     nav ul li a:hover{
@@ -743,20 +743,40 @@ footer{
         background: #0065FC;
     }
 
-    .contain{
-        display: block;
+    .contain {
         margin-top: 20px;
-        margin-left: 45px;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        gap: 15px;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-left: 30px;
+        font-size: 25px;
+        width: 83%;
+    }
+
+    .sous-title {
+        margin-left: 30px;
+        margin-bottom: 35px;
+    }
+
+    span.title-filters {
+        margin-left: 30px;
+        font-size: 20px;
     }
 
     .display{
         display: flex;
         flex-direction: column;
         width: 100%;
+        border-radius: 0;
     }
 
     .infos{
         margin-bottom: 25px;
+        margin-left: 30px;
     }
 
     .container{
@@ -765,6 +785,37 @@ footer{
         justify-content: space-between;
         width: 100%;
         margin: 0;
+    }
+
+    .containerX{
+        width: 89%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    
+    .cardsX{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .btn{
+        position: relative;
+        width: 49px;
+    }
+
+    .btn .fa-magnifying-glass{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn span{
+        display: none;
+    }
+
+    .fa-glass-color{
+        color: white;
     }
 
     .boxZ{
@@ -779,12 +830,16 @@ footer{
         align-items: center;
         margin-bottom: 25px;
         margin-top: 15px;
+        width: 87%;
     }
 
     h2.title-box {
         padding-top: 0px;
         margin-top: 0px;
+    }
 
+    .title-box {
+        margin-left: 8%;
     }
 
     .cardsZ {
@@ -793,9 +848,18 @@ footer{
     }
 
     .cards{
-        width: 100%;
+        width: 96%;
         height: 225px;
         box-shadow: 0 0px 2px 2px #F2F2F2;
+    }
+
+    .descX{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .star{
+        margin-bottom: 10px;
     }
 
     img.img-hebergements{
@@ -812,9 +876,60 @@ footer{
         background-color: white;
     }
     
+    .titleX{
+        font-size: 25px;
+        width: 120px;
+        margin-left: 8%;
+    }
+
+    .infos p {
+        font-size: 17px;
+    }
+    
+    .infos i {
+        padding: 4px 4px 5px 8px;
+    }
+
     .location{
         display: grid;
-        margin-left: 2%;
+        width: 94%;
         gap: 0;
     }
+
+    .more{
+        display: none;
+    }
+
+    .ft{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+    }
+
+    .same{
+        margin-left: 45px;
+    }
+
+    .link .link-bottom{
+        margin-bottom: 40px;
+    }
+
+    .search {
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+
+    input[type="text"] {
+        width: 64%;
+    }
+
+    .contain button {
+        margin: 0px 6px;
+        padding: 12px 14px;
+        width: 45%;
+        font-size: 13px;
+    }
+
+
 }
