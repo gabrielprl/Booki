@@ -276,6 +276,7 @@ a .title-cardsZ{
 }
 
 a .descZ{
+    margin-top: auto;
     color: #000000;
 }
 
@@ -414,7 +415,7 @@ img.img-hebergementsZ{
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 13px;
+    gap: 27px;
 }
 
 .image-w-h{
@@ -440,6 +441,7 @@ img.img-hebergementsZ{
 
 .starZ{
     width: 100%;
+    margin-top: auto;
 }
 
 .titleX{
@@ -925,7 +927,7 @@ footer{
     }
 
     .contain button {
-        margin: 0px 6px;
+        margin: 0px 1px;
         padding: 12px 14px;
         width: 45%;
         font-size: 13px;
